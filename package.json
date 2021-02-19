@@ -9,6 +9,9 @@
     "start": "./node_modules/.bin/gulp",
     "postinstall": "gulp deps"
   },
+  "engines": {
+    "node": "14.x"
+  },
   "browserslist": "Safari > 10, Firefox > 40, Chrome > 40, ie >= 11",
   "eslintConfig": {
     "extends": "airbnb-base",
