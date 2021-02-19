@@ -6,7 +6,6 @@
   "description": "Software and SaaS Bootstrap Theme",
   "main": "gulpfile.js",
   "scripts": {
-    "poststart": "npm prune --production",
     "start": "./node_modules/.bin/gulp",
     "postinstall": "gulp deps"
   },
