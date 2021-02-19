@@ -7,7 +7,7 @@
   "main": "gulpfile.js",
   "scripts": {
     "start": "./node_modules/.bin/gulp",
-    "postinstall": "gulp deps"
+    "postinstall": "./node_modules/.bin/gulp build"
   },
   "engines": {
     "node": "14.x"
@@ -33,6 +33,7 @@
     "core-js": "^3.2.0",
     "countup.js": "~2.0.2",
     "flatpickr": "~4.6.2",
+    "http-server": "^0.12.3",
     "flickity": "~2.2.0",
     "ion-rangeslider": "~2.3.0",
     "isotope-layout": "~3.0.6",
