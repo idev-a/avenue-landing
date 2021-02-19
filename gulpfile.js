@@ -324,7 +324,7 @@ gulp.task('serve', function (done) {
     server: {
       baseDir: './dist',
       index: "index.html"
-    }
+    },
     port: process.env.PORT || 5000
   });
   done();
